@@ -4,10 +4,10 @@
 
 // alert(idade + idade2); 
 
-const lista = [ "moças","pera","laranja"]
-lista.push("uva")
-console.log(lista.toString())
-console.log(lista.join("-"))
+// const lista = [ "moças","pera","laranja"]
+// lista.push("uva")
+// console.log(lista.toString())
+// console.log(lista.join("-"))
 
 // const fruta = {nome: "maça", ccr:"azul"}
 // console.log(fruta.nome)
@@ -36,3 +36,45 @@ console.log(lista.join("-"))
 //     alert(count);
 // }
 
+// function soma(n1 ,n2){
+//     return n1 + n2
+// }
+
+// function validaIdade (idade){
+//     const validar;
+//     if(idade >= 19 ){
+//         validar = true
+//     }else{
+//         validar = false
+//     }
+
+//     return validar
+// }
+
+// const idade = propr("Qual sua idade")
+// console.log(validaIdade(idade))
+
+// alert (soma(5,5))
+
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar"
+    
+//     // alert("Obrigado por clicar")
+}
+
+// function redirecionar(){
+//     //Para outra aba
+//     window.open('https://github.com/Ytalocruuz')
+//     //Para mesma aba
+//     window.location.href = "https://github.com/Ytalocruuz"
+// }
+
+
+function trocar(){
+      window.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse"
+}
+      
+
+function voltar(){
+    window.getElementById("mousemove").innerHTML = "Passar o mouse aqui"
+}
