@@ -16,3 +16,6 @@ if(firstName === 'João'){
 }
 
 console.log(firstName, lastName)
+
+var vonf = false
+console.log(typeof(vonf))
