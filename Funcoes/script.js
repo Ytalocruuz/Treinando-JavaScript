@@ -33,3 +33,33 @@ function alunsoAprovado(arr, media) {
 }
 
 console.log(alunsoAprovado(alunos, 5))
+
+function consolee(){
+    console.log("Oiii")
+}
+
+consolee();
+
+function parametroo(primeiro, segundo){
+    console.log(primeiro, segundo)
+}
+
+parametroo("Parametro", "Parametro")
+
+// com momeação
+
+const comMomeacao = function memeacao(){
+    console. log("Função com momeação");
+}
+
+comMomeacao();
+
+// arrow function
+
+const Arrow = () => {
+    console.log("sou uma arrow function");
+}
+
+Arrow();
+
+
